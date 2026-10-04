@@ -8,7 +8,7 @@ cask "clipshelf" do
   homepage "https://github.com/jiig6tyg1/ClipShelf"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "ClipShelf.app"
 
